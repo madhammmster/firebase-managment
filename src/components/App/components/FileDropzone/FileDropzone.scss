@@ -1,0 +1,38 @@
+
+
+
+.dropzone{
+  background: #eee;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  border-radius: .28571429rem;
+
+  transition: all .3s;
+
+  &.disabled:hover{
+    cursor: no-drop;
+    background: #eee;
+    i.icon{
+      opacity: 0.6;
+    }
+  }
+
+  i.icon{
+    margin: 0;
+    opacity: 0.6;
+    transition: all .3s;
+  }
+
+  &:hover{
+    background: #ccc;
+
+    i.icon{
+      opacity: 0.8;
+    }
+
+  }
+}
